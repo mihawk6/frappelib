@@ -1,0 +1,197 @@
+2023-09-13 09:51:09,711 DEBUG cd frappe-bench && python3 -m venv env
+2023-09-13 09:51:15,531 DEBUG cd frappe-bench && /home/ad/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-09-13 09:51:19,354 DEBUG cd frappe-bench && /home/ad/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-09-13 09:51:20,936 LOG Getting frappe
+2023-09-13 09:51:20,937 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2023-09-13 09:51:26,547 LOG Installing frappe
+2023-09-13 09:51:26,548 DEBUG cd /home/ad/frappe-bench && /home/ad/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ad/frappe-bench/apps/frappe 
+2023-09-13 09:52:52,057 DEBUG cd /home/ad/frappe-bench/apps/frappe && yarn install
+2023-09-13 09:54:36,067 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-13 09:54:36,084 DEBUG cd frappe-bench && bench build
+2023-09-13 09:54:36,577 INFO /usr/local/bin/bench build
+2023-09-13 09:55:48,015 LOG setting up backups
+2023-09-13 09:55:48,212 LOG backups were set up
+2023-09-13 09:55:48,217 INFO Bench frappe-bench initialized
+2023-09-13 09:56:58,998 INFO /usr/local/bin/bench start
+2023-09-13 09:57:00,367 INFO /usr/local/bin/bench serve --port 8000
+2023-09-13 09:57:00,423 INFO /usr/local/bin/bench worker
+2023-09-13 09:57:00,456 INFO /usr/local/bin/bench schedule
+2023-09-13 09:57:00,518 INFO /usr/local/bin/bench watch
+2023-09-13 10:02:23,743 INFO /usr/local/bin/bench find
+2023-09-13 10:03:38,931 INFO /usr/local/bin/bench new-app library_management
+2023-09-13 10:03:38,941 LOG creating new app library_management
+2023-09-13 10:06:53,277 LOG Installing library_management
+2023-09-13 10:06:53,278 DEBUG cd /home/ad/frappe-bench && /home/ad/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ad/frappe-bench/apps/library_management 
+2023-09-13 10:06:59,454 DEBUG bench build --app library_management
+2023-09-13 10:06:59,640 INFO /usr/local/bin/bench build --app library_management
+2023-09-13 10:07:03,442 WARNING bench build --app library_management executed with exit code 1
+2023-09-13 10:07:03,442 WARNING /usr/local/bin/bench new-app library_management executed with exit code 1
+2023-09-13 10:09:02,770 INFO /usr/local/bin/bench new-app library_management
+2023-09-13 10:09:02,776 LOG creating new app library_management
+2023-09-13 10:09:43,143 LOG Installing library_management
+2023-09-13 10:09:43,144 DEBUG cd /home/ad/frappe-bench && /home/ad/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ad/frappe-bench/apps/library_management 
+2023-09-13 10:09:47,551 DEBUG bench build --app library_management
+2023-09-13 10:09:47,760 INFO /usr/local/bin/bench build --app library_management
+2023-09-13 10:09:58,354 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-13 14:07:18,084 INFO /usr/local/bin/bench start
+2023-09-13 14:07:19,358 INFO /usr/local/bin/bench watch
+2023-09-13 14:07:19,454 INFO /usr/local/bin/bench serve --port 8000
+2023-09-13 14:07:19,661 INFO /usr/local/bin/bench worker
+2023-09-13 14:07:19,819 INFO /usr/local/bin/bench schedule
+2023-09-13 14:08:57,880 INFO /usr/local/bin/bench new-site library.test
+2023-09-13 14:10:17,268 INFO /usr/local/bin/bench new-site library.test
+2023-09-13 14:17:52,201 INFO /usr/local/bin/bench new-site library.test
+2023-09-13 14:19:46,215 INFO /usr/local/bin/bench --site library.test drop-site
+2023-09-13 14:20:13,469 INFO /usr/local/bin/bench --SITE library.test drop-site
+2023-09-13 14:21:28,117 INFO /usr/local/bin/bench list site
+2023-09-13 14:21:31,218 INFO /usr/local/bin/bench list sites
+2023-09-13 14:21:35,720 INFO /usr/local/bin/bench list-sites
+2023-09-13 14:22:18,541 INFO /usr/local/bin/bench drop-site library.test
+2023-09-13 14:22:36,558 INFO /usr/local/bin/bench drop-site library.test --force
+2023-09-13 14:22:58,543 INFO /usr/local/bin/bench new-site library.test
+2023-09-13 14:31:52,094 INFO /usr/local/bin/bench --site library.test add-to-hosts
+2023-09-13 14:35:57,260 INFO /usr/local/bin/bench start
+2023-09-13 14:35:58,283 INFO /usr/local/bin/bench worker
+2023-09-13 14:35:58,283 INFO /usr/local/bin/bench serve --port 8000
+2023-09-13 14:35:58,381 INFO /usr/local/bin/bench schedule
+2023-09-13 14:35:58,451 INFO /usr/local/bin/bench watch
+2023-09-13 14:37:58,036 INFO /usr/local/bin/bench --site library.test add-to-hosts
+2023-09-13 14:40:11,280 INFO /usr/local/bin/bench start
+2023-09-13 14:40:12,025 INFO /usr/local/bin/bench schedule
+2023-09-13 14:40:12,074 INFO /usr/local/bin/bench watch
+2023-09-13 14:40:12,147 INFO /usr/local/bin/bench serve --port 8000
+2023-09-13 14:40:12,233 INFO /usr/local/bin/bench worker
+2023-09-13 14:44:57,248 INFO /usr/local/bin/bench --site library.test install-app library_management
+2023-09-13 14:45:33,030 INFO /usr/local/bin/bench --site library.test list-apps
+2023-09-13 14:51:20,092 INFO /usr/local/bin/bench --site list
+2023-09-13 14:51:29,727 INFO /usr/local/bin/bench --help
+2023-09-13 14:56:05,142 INFO /usr/local/bin/bench start
+2023-09-13 14:56:06,391 INFO /usr/local/bin/bench serve --port 8000
+2023-09-13 14:56:06,401 INFO /usr/local/bin/bench watch
+2023-09-13 14:56:06,537 INFO /usr/local/bin/bench schedule
+2023-09-13 14:56:06,632 INFO /usr/local/bin/bench worker
+2023-09-13 14:59:17,748 INFO /usr/local/bin/bench --site library.test add-to-hosts
+2023-09-13 14:59:35,765 INFO /usr/local/bin/bench start
+2023-09-13 14:59:36,699 INFO /usr/local/bin/bench watch
+2023-09-13 14:59:36,778 INFO /usr/local/bin/bench serve --port 8000
+2023-09-13 14:59:36,783 INFO /usr/local/bin/bench schedule
+2023-09-13 14:59:36,971 INFO /usr/local/bin/bench worker
+2023-09-13 15:03:56,571 INFO /usr/local/bin/bench clear-cache
+2023-09-13 15:04:11,545 INFO /usr/local/bin/bench clear-cache --site library.test
+2023-09-13 15:04:47,349 INFO /usr/local/bin/bench --site clear-cache library.test
+2023-09-13 15:05:55,765 INFO /usr/local/bin/bench new-site library.test
+2023-09-13 15:06:15,814 INFO /usr/local/bin/bench new-site lib.test
+2023-09-13 15:08:35,711 INFO /usr/local/bin/bench --site lib.test enable-scheduler
+2023-09-13 15:09:21,422 INFO /usr/local/bin/bench --site library.test enable-scheduler
+2023-09-13 15:11:31,359 INFO /usr/local/bin/bench --site lib.test drop-site
+2023-09-13 15:12:07,452 INFO /usr/local/bin/bench drop-site lib.test --force
+2023-09-13 15:14:49,614 INFO /usr/local/bin/bench drop-site lib.test --force
+2023-09-13 15:21:08,982 INFO /usr/local/bin/bench start
+2023-09-13 15:21:10,144 INFO /usr/local/bin/bench schedule
+2023-09-13 15:21:10,200 INFO /usr/local/bin/bench watch
+2023-09-13 15:21:10,224 INFO /usr/local/bin/bench worker
+2023-09-13 15:21:10,356 INFO /usr/local/bin/bench serve --port 8000
+2023-09-13 15:22:09,057 INFO /usr/local/bin/bench drop-site library.test --force
+2023-09-13 15:23:21,178 INFO /usr/local/bin/bench drop-site library.test --force
+2023-09-13 15:26:08,236 INFO /usr/local/bin/bench new-site library.test
+2023-09-13 15:28:27,566 INFO /usr/local/bin/bench --site library.test enable-scheduler
+2023-09-13 15:29:23,454 INFO /usr/local/bin/bench --site library.test add-to-hosts
+2023-09-13 15:29:45,048 INFO /usr/local/bin/bench start
+2023-09-13 15:29:45,760 INFO /usr/local/bin/bench worker
+2023-09-13 15:29:45,766 INFO /usr/local/bin/bench watch
+2023-09-13 15:29:45,832 INFO /usr/local/bin/bench serve --port 8000
+2023-09-13 15:29:45,943 INFO /usr/local/bin/bench schedule
+2023-09-14 00:28:09,715 INFO /usr/local/bin/bench start
+2023-09-14 00:28:10,556 INFO /usr/local/bin/bench watch
+2023-09-14 00:28:10,605 INFO /usr/local/bin/bench worker
+2023-09-14 00:28:10,657 INFO /usr/local/bin/bench serve --port 8000
+2023-09-14 00:28:10,687 INFO /usr/local/bin/bench schedule
+2023-09-14 00:32:24,230 INFO /usr/local/bin/bench start
+2023-09-14 00:32:24,613 INFO /usr/local/bin/bench serve --port 8000
+2023-09-14 00:32:24,654 INFO /usr/local/bin/bench worker
+2023-09-14 00:32:24,655 INFO /usr/local/bin/bench watch
+2023-09-14 00:32:24,712 INFO /usr/local/bin/bench schedule
+2023-09-14 00:36:01,363 INFO /usr/local/bin/bench --site library.test add-to-hosts
+2023-09-14 00:37:21,396 INFO /usr/local/bin/bench drop-site library.test --force
+2023-09-14 00:44:01,128 INFO /usr/local/bin/bench new-site library.test
+2023-09-14 00:45:15,695 INFO /usr/local/bin/bench --site library.test enable-scheduler
+2023-09-14 00:45:42,870 INFO /usr/local/bin/bench --site library.test add-to-hosts
+2023-09-14 00:48:41,656 INFO /usr/local/bin/bench --site library.test install-app library_management
+2023-09-14 00:49:17,502 INFO /usr/local/bin/bench --site library.test list-apps
+2023-09-14 01:20:10,418 INFO /usr/local/bin/bench --site library.test console
+2023-09-14 01:20:51,496 INFO /usr/local/bin/bench --site library.test mariadb
+2023-09-14 01:21:24,235 INFO /usr/local/bin/bench --site library.test backup
+2023-09-14 01:36:50,351 INFO /usr/local/bin/bench set-config -g developer_mode true
+2023-09-14 01:36:59,272 INFO /usr/local/bin/bench start
+2023-09-14 01:37:00,194 INFO /usr/local/bin/bench serve --port 8000
+2023-09-14 01:37:00,272 INFO /usr/local/bin/bench schedule
+2023-09-14 01:37:00,386 INFO /usr/local/bin/bench worker
+2023-09-14 01:37:00,409 INFO /usr/local/bin/bench watch
+2023-09-14 02:56:59,216 INFO /usr/local/bin/bench --site library.test mariadb
+2023-09-14 03:11:57,322 INFO /usr/local/bin/bench --site library.test mariadb
+2023-09-14 04:18:42,035 INFO /usr/local/bin/bench start
+2023-09-14 04:18:43,163 INFO /usr/local/bin/bench schedule
+2023-09-14 04:18:43,302 INFO /usr/local/bin/bench watch
+2023-09-14 04:18:43,505 INFO /usr/local/bin/bench serve --port 8000
+2023-09-14 04:18:43,601 INFO /usr/local/bin/bench worker
+2023-09-14 04:27:41,899 INFO /usr/local/bin/bench --site
+2023-09-14 04:29:11,793 INFO /usr/local/bin/bench --site library.test set-config server_script_enabled true
+2023-09-14 04:31:29,715 INFO /usr/local/bin/bench start
+2023-09-14 04:31:30,999 INFO /usr/local/bin/bench worker
+2023-09-14 04:31:31,448 INFO /usr/local/bin/bench schedule
+2023-09-14 04:31:31,736 INFO /usr/local/bin/bench watch
+2023-09-14 04:31:31,870 INFO /usr/local/bin/bench serve --port 8000
+2023-09-14 05:04:02,237 INFO /usr/local/bin/bench start
+2023-09-14 05:04:03,136 INFO /usr/local/bin/bench watch
+2023-09-14 05:04:03,366 INFO /usr/local/bin/bench serve --port 8000
+2023-09-14 05:04:03,370 INFO /usr/local/bin/bench schedule
+2023-09-14 05:04:03,382 INFO /usr/local/bin/bench worker
+2023-09-14 05:13:11,169 INFO /usr/local/bin/bench start
+2023-09-14 05:13:11,943 INFO /usr/local/bin/bench worker
+2023-09-14 05:13:11,988 INFO /usr/local/bin/bench serve --port 8000
+2023-09-14 05:13:12,022 INFO /usr/local/bin/bench watch
+2023-09-14 05:13:12,035 INFO /usr/local/bin/bench schedule
+2023-09-14 06:00:01,479 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-14 06:08:37,599 INFO /usr/local/bin/bench start
+2023-09-14 06:08:38,418 INFO /usr/local/bin/bench schedule
+2023-09-14 06:08:38,819 INFO /usr/local/bin/bench watch
+2023-09-14 06:08:39,028 INFO /usr/local/bin/bench serve --port 8000
+2023-09-14 06:08:39,139 INFO /usr/local/bin/bench worker
+2023-09-15 00:23:16,026 INFO /usr/local/bin/bench start
+2023-09-15 00:23:17,516 INFO /usr/local/bin/bench watch
+2023-09-15 00:23:17,562 INFO /usr/local/bin/bench worker
+2023-09-15 00:23:17,662 INFO /usr/local/bin/bench serve --port 8000
+2023-09-15 00:23:17,712 INFO /usr/local/bin/bench schedule
+2023-09-15 00:43:19,354 INFO /usr/local/bin/bench start
+2023-09-15 00:43:20,120 INFO /usr/local/bin/bench watch
+2023-09-15 00:43:20,191 INFO /usr/local/bin/bench serve --port 8000
+2023-09-15 00:43:20,199 INFO /usr/local/bin/bench worker
+2023-09-15 00:43:20,245 INFO /usr/local/bin/bench schedule
+2023-09-15 00:44:24,684 INFO /usr/local/bin/bench start
+2023-09-15 00:44:25,431 INFO /usr/local/bin/bench watch
+2023-09-15 00:44:25,517 INFO /usr/local/bin/bench worker
+2023-09-15 00:44:25,648 INFO /usr/local/bin/bench serve --port 8000
+2023-09-15 00:44:25,659 INFO /usr/local/bin/bench schedule
+2023-09-15 01:01:19,150 INFO /usr/local/bin/bench start
+2023-09-15 01:01:20,266 INFO /usr/local/bin/bench watch
+2023-09-15 01:01:20,349 INFO /usr/local/bin/bench serve --port 8000
+2023-09-15 01:01:20,425 INFO /usr/local/bin/bench schedule
+2023-09-15 01:01:20,551 INFO /usr/local/bin/bench worker
+2023-09-15 01:03:40,385 INFO /usr/local/bin/bench version
+2023-09-18 22:13:59,522 INFO /usr/local/bin/bench --version
+2023-09-18 22:49:33,963 INFO /usr/local/bin/bench update --upgrade
+2023-09-18 22:49:33,981 WARNING /usr/local/bin/bench update --upgrade executed with exit code 2
+2023-09-18 22:50:37,697 INFO /usr/local/bin/bench switch-to-branch version 13 frappe erpnext --upgrade
+2023-09-18 22:50:37,701 ERROR 13 does not exist!
+2023-09-18 22:50:37,710 INFO Fetching upstream unshallow for frappe
+2023-09-18 22:50:37,710 DEBUG cd ./apps/frappe && git remote set-branches upstream  '*'
+2023-09-18 22:50:37,733 DEBUG cd ./apps/frappe && git fetch --all --unshallow --quiet
+2023-09-18 22:53:49,695 WARNING cd ./apps/frappe && git fetch --all --unshallow --quiet executed with exit code 1
+2023-09-18 22:53:49,696 WARNING /usr/local/bin/bench switch-to-branch version 13 frappe erpnext --upgrade executed with exit code 1
+2023-09-18 23:02:30,935 INFO /usr/local/bin/bench --format table
+2023-09-18 23:02:52,843 INFO /usr/local/bin/bench verison -f json
+2023-09-18 23:03:03,718 INFO /usr/local/bin/bench version -f json
+2023-09-19 02:35:19,615 INFO /usr/local/bin/bench version
+2023-09-19 02:36:17,064 INFO /usr/local/bin/bench --version
+2023-09-19 02:37:16,221 INFO /usr/local/bin/bench version
+2023-09-19 02:39:02,729 INFO /usr/local/bin/bench --site library.text version

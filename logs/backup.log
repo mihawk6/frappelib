@@ -1,0 +1,6 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9444ed45b3df0f04 -p********** _9444ed45b3df0f04 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./library.test/private/backups/20230914_183002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2023-09-14 18:30:04.651025
+Config  : ./library.test/private/backups/20230914_183002-library_test-site_config_backup.json 126.0B
+Database: ./library.test/private/backups/20230914_183002-library_test-database.sql.gz         274.3KiB
+Backup for Site library.test has been successfully completed

@@ -1,0 +1,55 @@
+    1  [200~sudo apt install git python-dev python-pip redis-server
+    2  sudo apt install git python-dev python-pip redis-server
+    3  sudo apt install git 
+    4  sudo apt install git python-dev python-pip redis-server
+    5  sudo apt update 
+    6  sudo apt update && sudo apt upgrade
+    7  lsb_release -a
+    8  sudo do-release-upgrade
+    9  sudo apt install git python-dev python-pip redis-server
+   10  sudo apt update 
+   11  sudo apt upgrade 
+   12  sudo apt install git python-dev python-pip redis-server
+   13  sudo apt-get install python3
+   14  apt --fix-broken install
+   15  sudo apt --fix-broken install
+   16  sudo apt install git redis-server
+   17  python 
+   18  python3 
+   19  pip
+   20  pip3
+   21  sudo apt install python3-pip
+   22  pip
+   23  sudo apt install software-properties-common
+   24  sudo apt-get update
+   25  sudo apt-get install mariadb-server
+   26  which mariadb 
+   27  mysql_secure_installation
+   28  sudo su 
+   29  nvm --version 
+   30  nvm install 14
+   31  cat ~/.bashrc
+   32  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+   33  ls -root
+   34  ls /root
+   35  sudo su 
+   36  nano ~/.bashrc
+   37  source .bashrc
+   38  nvm --version 
+   39  which nvm 
+   40  bench new-app library_management
+   41  node -v
+   42  node --version 
+   43  which node 
+   44  whereis node 
+   45  nvm list 
+   46  nvm install 18
+   47  bench new-app library_management
+   48  ls -l
+   49  ll
+   50  cd apps
+   51  ll
+   52  cd ..
+   53  ls -R
+   54  history  
+   55  history > notes

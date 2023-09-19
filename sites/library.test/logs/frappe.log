@@ -1,0 +1,6 @@
+2023-09-14 04:22:30,583 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library Member","name":"new-library-member-2","__islocal":1,"__unsaved":1,"owner":"Administrator","title":"Adarsh ","last_name":"Sharma","email_address":"adarsh911verma@gmail.com","phone":"9113894301"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-14 04:22:46,715 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library Member","name":"new-library-member-2","__islocal":1,"__unsaved":1,"owner":"Administrator","title":"Adarsh ","last_name":"Sharma","email_address":"adarsh911verma@gmail.com","phone":"9113894301"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
